@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Syne:wght@700;800&family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Sora:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-syne: "Syne", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-sora {
+  font-family: 'Sora', sans-serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-georgia {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+body {
+  @apply bg-black text-white selection:bg-blue-500 selection:text-white;
+}
+
