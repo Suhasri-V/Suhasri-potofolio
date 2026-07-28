@@ -35,7 +35,7 @@ interface PortfolioContextType {
   setActiveEditTab: (tab: string) => void;
 }
 
-const STORAGE_KEY = 'suhasri_portfolio_data_v6';
+const STORAGE_KEY = 'suhasri_portfolio_data_v8';
 
 const PortfolioContext = createContext<PortfolioContextType | undefined>(undefined);
 

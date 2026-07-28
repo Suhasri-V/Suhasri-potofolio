@@ -128,7 +128,7 @@ export const PROJECTS: Project[] = [
     image: '/project1.jpg',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Sudoku Solver (Python)',
     description: 'Developed a Python-based Sudoku solver utilizing backtracking algorithms with complete grid checking and logic-based solving.',
     tags: ['Python', 'Backtracking', 'Algorithms'],
@@ -137,7 +137,7 @@ export const PROJECTS: Project[] = [
     image: '/project2.jpg',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Library Management System (C)',
     description: 'Created a C application to manage book records and issue/return modules using file handling and structured programming.',
     tags: ['C Programming', 'File Handling', 'Data Management'],
@@ -146,7 +146,7 @@ export const PROJECTS: Project[] = [
     image: '/project3.jpg',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Hackathon & Debugging Challenges',
     description: 'Participated in competitive hackathons and coding challenges focusing on rapid problem-solving, code debugging, and team collaboration.',
     tags: ['Hackathon', 'Problem Solving', 'Debugging'],
@@ -217,8 +217,8 @@ export const EXPERIENCE: Experience[] = [
     company: 'Chennai Metro Rail Limited',
     period: '1 June 2026 – 30 June 2026',
     description: 'Performed manual and functional testing, including test case design and execution. Handled bug tracking and reporting to support quality assurance processes. Gained hands-on experience with travel system operations.',
-    certificateUrl: '/resume.pdf',
-    logoUrl: 'https://lh3.googleusercontent.com/d/1y0yb5Wd5ksfHpLnu14I-SACgXpDB310W'
+    certificateUrl: 'https://drive.google.com/file/d/1y0yb5Wd5ksfHpLnu14I-SACgXpDB310W/view?usp=sharing',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/en/8/87/Chennai_Metro_logo.svg'
   }
 ];
 
